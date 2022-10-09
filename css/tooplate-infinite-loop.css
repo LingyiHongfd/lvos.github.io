@@ -146,12 +146,13 @@ blockquote {
 
 #infinite {
 	background-color: #222;
-  background-image: url(../img/infinite-loop-01.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../img/one.gif);
+  /* background-repeat: no-repeat; */
   height: 100vh;
   min-height: 375px;
   position: relative;
 }
+
 
 @media (min-height: 600px) and (min-width: 1920px) {
   #infinite {
@@ -196,11 +197,12 @@ blockquote {
 }
 
 .tm-hero-title {
-  font-size: 3.5rem;
+  font-size: 8.5rem;
   text-shadow: 2px 2px 2px #333;
 }
 
 .tm-hero-subtitle {
+  font-size: 3.0rem;
   text-shadow: 2px 2px 2px #333;
 }
 
@@ -266,20 +268,7 @@ blockquote {
 }
 
 /* Testimonials */
-#testimonials {
-  color: white;
-  background-image: url(../img/infinite-loop-02.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-}
 
-@media (max-width: 991px) {
-  #testimonials {
-    background-image: url(../img/infinite-loop-02-mobile.jpg);
-  }
-}
 
 .tm-testimonials-content {
   position: relative;
@@ -323,9 +312,9 @@ blockquote {
 /* Work */
 
 .tm-section-desc {
-  max-width: 650px;
+  max-width: 900px;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
 }
 
 .tm-gallery-container {
