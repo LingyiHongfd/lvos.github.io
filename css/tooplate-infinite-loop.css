@@ -45,13 +45,13 @@ blockquote {
 }
 
 .tm-section-pad-top {
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .tm-content-box {
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .tm-text-primary {
@@ -184,6 +184,47 @@ blockquote {
   }
 }
 
+
+#infinite_t {
+	background-color: #fff;
+  background-image: url(../img/one.gif);
+  /* background-repeat: no-repeat; */
+  height: 50vh;
+  min-height: 100px;
+  position: relative;
+}
+
+
+@media (min-height: 600px) and (min-width: 1920px) {
+  #infinite_t {
+    background-size: cover;
+  }
+}
+
+@media (min-height: 830px) {
+  #infinite_t {
+    background-position: center -210px;
+  }
+}
+
+@media (min-height: 680px) and (max-height: 829px) {
+  #infinite_t {
+    background-position: center -300px;
+  }
+}
+
+@media (min-height: 500px) and (max-height: 679px) {
+  #infinite_t {
+    background-position: center -400px;
+  }
+}
+
+@media (max-height: 499px) {
+  #infinite_t {
+    background-position: center -450px;
+  }
+}
+
 .tm-hero-text-container {
   width: 100%;
   height: 100%;
@@ -194,6 +235,10 @@ blockquote {
 
 .tm-hero-text-container-inner {
   margin-top: -90px;
+}
+
+.tm-hero-text-container-inner_t {
+  margin-top: -px;
 }
 
 .tm-hero-title {
@@ -216,6 +261,10 @@ blockquote {
 @media (max-height: 480px) {
   .tm-hero-text-container-inner {
     margin-top: -40px;
+  }
+
+  .tm-hero-text-container-inner_t {
+    margin-top: -0px;
   }
 
   .tm-intro-next {
@@ -250,6 +299,7 @@ blockquote {
 }
 
 .tm-section-title {
+  color: #37A;
   font-size: 2.6rem;
   font-weight: normal;
 }
@@ -288,7 +338,7 @@ blockquote {
 }
 
 .tm-testimonials-carousel {
-  max-width: 1050px;
+  max-width: 200px;
   margin: 0 auto;
 }
 
@@ -315,6 +365,17 @@ blockquote {
   max-width: 900px;
   width: 100%;
   font-size: 1.5rem;
+}
+
+.tm-section-desc_citing {
+  padding-left: 50px;
+  max-width: 1000px;
+  padding-right: 50px;
+  line-height:1em;
+
+  width: 100%;
+  font-size: 1.2rem;
+  font-family:"Courier New", Courier, monospace;
 }
 
 .tm-gallery-container {
@@ -501,15 +562,13 @@ figure.effect-honey:hover h2 i {
 /* Contact */
 
 #contact {
-  color: white;
-  background-color: #001828;
-  background-image: url(../img/infinite-loop-03.jpg);
+  color: #707070;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 980px;
+  min-height: 100px;
   position: relative;
-  padding-bottom: 50px;
-  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .contact-item {
@@ -631,7 +690,7 @@ p {
   .tm-intro-text-container {
     padding-left: 15px;
     padding-top: 30px;
-    max-width: 600px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -685,4 +744,11 @@ p {
   .tm-gallery-item {
     margin: 0;
   }
+}
+
+
+
+.img_box{
+  background-size: 10px 15px;
+  overflow: hidden;
 }
