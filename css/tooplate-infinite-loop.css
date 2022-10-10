@@ -49,6 +49,11 @@ blockquote {
   padding-bottom: 10px;
 }
 
+.tm-section-pad-top_citing {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .tm-content-box {
   padding-top: 30px;
   padding-bottom: 10px;
@@ -367,8 +372,19 @@ blockquote {
   font-size: 1.5rem;
 }
 
-.tm-section-desc_citing {
+.tm-section-desc_citing_first {
   padding-left: 50px;
+  max-width: 1000px;
+  padding-right: 50px;
+  line-height:1em;
+
+  width: 100%;
+  font-size: 1.2rem;
+  font-family:"Courier New", Courier, monospace;
+}
+
+.tm-section-desc_citing {
+  padding-left: 70px;
   max-width: 1000px;
   padding-right: 50px;
   line-height:1em;
