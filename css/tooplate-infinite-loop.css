@@ -162,7 +162,8 @@ blockquote {
 
 @media (min-height: 600px) and (min-width: 1920px) {
   #infinite {
-    background-size: repeat;
+    background-size: 40%;
+    background-repeat: repeat;
   }
 }
 
