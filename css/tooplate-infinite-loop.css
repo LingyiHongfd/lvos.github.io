@@ -154,6 +154,7 @@ blockquote {
   background-image: url(../img/one.gif);
   background-repeat: repeat;
   height: 100vh;
+  width: 100vw;
   min-height: 375px;
   position: relative;
 }
@@ -161,7 +162,7 @@ blockquote {
 
 @media (min-height: 600px) and (min-width: 1920px) {
   #infinite {
-    background-size: cover;
+    background-size: repeat;
   }
 }
 
