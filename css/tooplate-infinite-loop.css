@@ -9,8 +9,8 @@ https://www.tooplate.com/view/2117-infinite-loop
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
 body {
-	font-family: "Raleway", sans-serif;
-	font-size: 1.2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
   color: #707070;
   margin: 0;
   padding: 0;
@@ -18,13 +18,13 @@ body {
 }
 a {
   transition: all 0.3s ease;
-  color: #38B;
+  color: #38b;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #D40;
+  color: #d40;
 }
 
 a:focus {
@@ -60,7 +60,7 @@ blockquote {
 }
 
 .tm-text-primary {
-  color: #37A;
+  color: #37a;
 }
 
 .tm-font-big {
@@ -76,7 +76,7 @@ blockquote {
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
   color: white;
-  background-color: #38B;
+  background-color: #38b;
 }
 
 /* Navbar */
@@ -102,7 +102,7 @@ blockquote {
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: #38B;
+  color: #38b;
 }
 
 .tm-navbar.scroll .navbar-brand {
@@ -124,7 +124,7 @@ blockquote {
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
-  color: #FFF;
+  color: #fff;
   background-color: #369;
 }
 
@@ -150,7 +150,7 @@ blockquote {
 /* Hero */
 
 #infinite {
-	background-color: #222;
+  background-color: #222;
   background-image: url(../img/one.gif);
   background-repeat: repeat;
   height: 100vh;
@@ -158,7 +158,6 @@ blockquote {
   min-height: 375px;
   position: relative;
 }
-
 
 @media (min-height: 600px) and (min-width: 1920px) {
   #infinite {
@@ -191,16 +190,14 @@ blockquote {
   }
 }
 
-
 #infinite_t {
-	background-color: #fff;
+  background-color: #fff;
   background-image: url(../img/one.gif);
   /* background-repeat: no-repeat; */
   height: 50vh;
   min-height: 100px;
   position: relative;
 }
-
 
 @media (min-height: 600px) and (min-width: 1920px) {
   #infinite_t {
@@ -254,7 +251,7 @@ blockquote {
 }
 
 .tm-hero-subtitle {
-  font-size: 3.0rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 2px #333;
 }
 
@@ -285,17 +282,17 @@ blockquote {
 }
 
 .tm-down-arrow {
-  	color: #FFF;
-    cursor: pointer;
-    background: #357;
-    padding: 15px 40px;
-    transition: all 0.3s ease;
+  color: #fff;
+  cursor: pointer;
+  background: #357;
+  padding: 15px 40px;
+  transition: all 0.3s ease;
 }
 
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
-  color: #FFF;
-  background: #37A;
+  color: #fff;
+  background: #37a;
   padding: 20px 50px;
 }
 
@@ -306,7 +303,7 @@ blockquote {
 }
 
 .tm-section-title {
-  color: #37A;
+  color: #37a;
   font-size: 2.6rem;
   font-weight: normal;
 }
@@ -317,15 +314,14 @@ blockquote {
 
 .tm-icon {
   display: block;
-  color: #37A;
+  color: #37a;
 }
 
 .tm-continue {
-	padding: 20px 0 30px 0;
+  padding: 20px 0 30px 0;
 }
 
 /* Testimonials */
-
 
 .tm-testimonials-content {
   position: relative;
@@ -378,22 +374,22 @@ blockquote {
   padding-left: 50px;
   max-width: 1000px;
   padding-right: 50px;
-  line-height:1em;
+  line-height: 1em;
 
   width: 100%;
   font-size: 1.2rem;
-  font-family:"Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .tm-section-desc_citing {
   padding-left: 70px;
   max-width: 1000px;
   padding-right: 40px;
-  line-height:1em;
+  line-height: 1em;
 
   width: 100%;
   font-size: 1.2rem;
-  font-family:"Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .tm-gallery-container {
@@ -533,7 +529,7 @@ figure.effect-honey figcaption::before {
   left: 0;
   width: 100%;
   height: 10px;
-  background: #38C;
+  background: #38c;
   content: "";
   -webkit-transform: translate3d(0, 10px, 0);
   transform: translate3d(0, 10px, 0);
@@ -574,8 +570,8 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-container-gallery {
-	padding-top: 30px;
-	}
+  padding-top: 30px;
+}
 
 /* Contact */
 
@@ -611,8 +607,8 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-input {
-	margin: 0 0 20px 0;
-	width: 90%;
+  margin: 0 0 20px 0;
+  width: 90%;
   padding: 8px 20px;
   border-radius: 6px;
   border: 1px solid white;
@@ -621,16 +617,16 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-btn-submit {
-	font-size: 0.9em;
-	color: #fff;
-	background-color: #369;
-	width: 50%;
-	margin-bottom: 60px;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #369;
+  width: 50%;
+  margin-bottom: 60px;
 }
 
 .tm-btn-submit:hover {
-	color: #fff;
-	background-color: #38B;
+  color: #fff;
+  background-color: #38b;
 }
 
 ::placeholder {
@@ -658,11 +654,11 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-footer a {
-	color: #fff;
+  color: #fff;
 }
 
 .tm-footer a:hover {
-	color: #9CF;
+  color: #9cf;
 }
 
 .tm-footer-link {
@@ -671,7 +667,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-footer-link:hover,
 .tm-footer-link:focus {
-  color: #38B;
+  color: #38b;
   text-decoration: none;
 }
 
@@ -726,7 +722,6 @@ p {
 }
 
 @media (max-width: 767px) {
-
   .navbar-nav {
     max-width: 200px;
     text-align: right;
@@ -740,7 +735,7 @@ p {
 
   .navbar-collapse .nav-link {
     color: #707070;
-	padding-right: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -763,5 +758,3 @@ p {
     margin: 0;
   }
 }
-
-
