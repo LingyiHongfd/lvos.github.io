@@ -214,6 +214,7 @@ blockquote {
   #infinite_t {
     background-position: center -210px;
     background-size: 60%;
+    background-size: repeat;
   }
 }
 
@@ -221,6 +222,7 @@ blockquote {
   #infinite_t {
     background-position: center -300px;
     background-size: 60%;
+    background-size: repeat;
   }
 }
 
@@ -228,6 +230,7 @@ blockquote {
   #infinite_t {
     background-position: center -400px;
     background-size: 70%;
+    background-size: repeat;
   }
 }
 
@@ -235,6 +238,7 @@ blockquote {
   #infinite_t {
     background-position: center -450px;
     background-size: 70%;
+    background-size: repeat;
   }
 }
 
