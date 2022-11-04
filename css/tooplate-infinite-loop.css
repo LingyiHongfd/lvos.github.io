@@ -405,6 +405,16 @@ blockquote {
   font-family: "Courier New", Courier, monospace;
 }
 
+.tm-section-desc_license {
+  padding-left: 70px;
+  max-width: 1000px;
+  padding-right: 40px;
+  line-height: 1em;
+
+  width: 100%;
+  font-size: 1.2rem;
+}
+
 .tm-gallery-container {
   padding-top: 70px;
   padding-bottom: 120px;
