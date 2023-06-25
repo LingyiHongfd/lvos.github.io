@@ -1,508 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>LVOS</title>
-    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/tooplate-infinite-loop.css" />
-<!--
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>LVOS</title>
+  <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/tooplate-infinite-loop.css" />
+  <!--
 Tooplate 2117 Infinite Loop
 https://www.tooplate.com/view/2117-infinite-loop
 -->
 
-  </head>
-  <body>    
-    <!-- Hero section -->
-    <section id="infinite" class="text-white tm-font-big tm-parallax">
-      <!-- Navigation -->
-      <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
-        <div class="container">   
-          <div class="tm-next">
-              <a href="./index.html" class="navbar-brand">LVOS</a>
-          </div>             
-            
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars navbar-toggler-icon"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link tm-nav-link" onclick="window.location.href = './index.html' ","###">Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link tm-nav-link" onclick="window.location.href = './people.html' ","###">People</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link tm-nav-link" onclick="window.location.href = './dataset.html' ","###">Dataset</a>
-              </li>
-                          
-            </ul>
-          </div>        
-        </div>
-      </nav>
-      
-      <div class="text-center tm-hero-text-container">
-        <div class="tm-hero-text-container-inner">
-            <h2 class="tm-hero-title">LVOS</h2>
-            <p class="tm-hero-subtitle">
-              Long-term Video Object Segmentation
-            </p>
-        </div>        
-      </div>
+</head>
 
-      <div class="tm-next tm-intro-next">
-        <a href="#news" class="text-center tm-down-arrow-link">
-          <i class="fas fa-2x fa-arrow-down tm-down-arrow"></i>
-        </a>
-      </div>      
-    </section>
-
-    <section id="news" class="tm-section-pad-top">
-      
+<body>
+  <!-- Hero section -->
+  <section id="infinite" class="text-white tm-font-big tm-parallax">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">
       <div class="container">
-
-            <div class="row tm-content-box"><!-- first row -->
-                <div class="col-lg-12 col-xl-12">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4 tm-section-title">News</h2>
-                        
-                        <div class="mb-4 tm-intro-text" style="display: flex;line-height: 30px;">
-                          <span style="font-size: 40px;margin-right: 10px;">•</span>
-                          <span>We have updated the language expressions! See <a href='./dataset.html'>Dataset</a> for more information.
-                          </span>
-                        </div>
-
-                        <div class="mb-4 tm-intro-text" style="display: flex;line-height: 30px;">
-                          <span style="font-size: 40px;margin-right: 10px;">•</span>
-                          <span><strong>LVOS</strong> is the first densely annotated long-term video object segmentation dataset. LVOS aims to provide a benchmark for the development and assessing of long-term VOS models.
-                          </span>
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-      </div>
-    </section>
-
-
-    
-    <section id="whatwedo" class="tm-section-pad-top">
-      
-      <div class="container">
-
-            <div class="row tm-content-box"><!-- first row -->
-                <div class="col-lg-12 col-xl-12">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4 tm-section-title">What is LVOS</h2>
-                        <p class="mb-4 tm-intro-text">
-                          <strong>LVOS</strong> is the first densely annotated long-term video object segmentation dataset. LVOS aims to provide a benchmark for the development and assessing of long-term VOS models</a>.</p>
-                    </div>
-                </div>
-
-            </div><!-- first row -->
-            
-            <div class="row tm-content-box" vertical-align="middle"><!-- second row -->
-        		
-              <!-- blank row -->
-              <div class="col-lg-1">
-              </div>
-              
-              <div class="col-lg-4">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Long-term</h2>
-                        <p class="mb-4 tm-intro-text">
-                          Each sequence lasting <strong>1.59 minutes</strong>  on average.</p>
-                    </div>
-                </div>
-
-              <div class="col-lg-2">
-              </div>
-
-                
-              <div class="col-lg-4">
-                  <div class="tm-intro-text-container">
-                      <h2 class="tm-text-primary mb-4">High-quality and Dense Annotation</h2>
-                      <p class="mb-4 tm-intro-text">
-                        Pixel-wise annotations are available at <strong> 6 fps</strong>.</p>
-                  </div>
-              </div>
-
-              <!-- blank row -->
-              <div class="col-lg-1">
-              </div>
-            </div>
-
-            
-            <div class="row tm-content-box"><!-- third row -->
-
-                <!-- blank row -->
-                <div class="col-lg-1">
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">High Resolution</h2>
-                        <p class="mb-4 tm-intro-text">
-                      All videos are <strong>720P</strong> .</p>
-                          
-                          
-                    </div>
-                </div>
-
-                <div class="col-lg-2">
-                </div>
-
-                
-                
-                <div class="col-lg-4">
-                    <div class="tm-intro-text-container">
-                      <h2 class="tm-text-primary mb-4">Diverse Categories</h2>
-                        <p class="mb-4 tm-intro-text">
-                          <strong>27</strong>  categories with 7 unseen categories to simulate real application scenarios closely.
-                       </p>
-                          
-                          
-                    </div>
-                </div>
-
-                <!-- blank row -->
-                <div class="col-lg-1">
-                </div>
-
-            </div>
-
-
-              <div class="row tm-content-box"><!-- forth row -->
-
-                  <!-- blank row -->
-                  <div class="col-lg-1">
-                  </div>
-        		
-                  <div class="col-lg-4">
-                      <div class="tm-intro-text-container">
-                          <h2 class="tm-text-primary mb-4">Lingual Labeling</h2>
-                          <p class="mb-4 tm-intro-text">
-                            Each sequence is provided with additional <strong>lingual label</strong> .</p>
-                      </div>
-                  </div>
-                  
-                  <div class="col-lg-2">
-                  </div>
-  
-
-                  <div class="col-lg-4">
-                      <div class="tm-intro-text-container">
-                          <h2 class="tm-text-primary mb-4">Large Scale</h2>
-                          <p class="mb-4 tm-intro-text">
-                            <strong>220</strong>  videos.
-                            <strong>156,432</strong>  annotations.
-                          </p>
-                      </div>
-                  </div>
-
-                  <!-- blank row -->
-                  <div class="col-lg-1">
-                  </div>
-  
-              </div><!-- forth row -->
-
-              <!-- bottom links -->
-              <div class="row tm-content-box" vertical-align="middle"><!-- second row -->
-
-                <div class="tm-continue" style="margin-left: 500px;">
-                  <a href="https://arxiv.org/abs/2211.10181v1" class="tm-intro-text tm-btn-primary">Paper</a>
-                </div>
-
-                <div class="tm-continue" style="margin-left: 70px;">
-                  <a href="https://github.com/LingyiHongfd/LVOS" class="tm-intro-text tm-btn-primary">Codes</a>
-                </div>
-              </div>
-
-            
+        <div class="tm-next">
+          <a href="./index.html" class="navbar-brand">LVOS</a>
         </div>
-      
-    </section>
-    
 
-    <!-- line -->
-    <div style="padding-top: 100px;"></div>
-    <div style="position: absolute; left: 50%; transform: translateX(-50%); width: 80%; height: 2.5px; border-width:  1.5px; border-style: solid; border-color: #e6e1e1;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" onclick="window.location.href = './index.html' " ,"###">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" onclick="window.location.href = './people.html' " ,"###">People</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-nav-link" onclick="window.location.href = './dataset.html' " ,"###">Dataset</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="text-center tm-hero-text-container">
+      <div class="tm-hero-text-container-inner">
+        <h2 class="tm-hero-title">LVOS</h2>
+        <p class="tm-hero-subtitle">
+          Long-term Video Object Segmentation
+        </p>
+      </div>
     </div>
 
-    
-    
-    <!-- citing -->
-    <section id="citing" class="tm-section-pad-top_citing">
-      <div class="container tm-container-gallery">
-        <div class="row">
-          <div class="col-2">
-          </div>
-          <div class=" col-8">
-              <h2 class="text-center tm-text-primary tm-section-title mb-4">Citing LVOS</h2>
-              <p class="text-center mx-auto tm-section-desc">
-                Please consider citing LVOS if you use LVOS in your research.
-              </p>
-            
-              <div style="background-color: rgba(242, 242, 242,1); padding-top: 10px; padding-bottom: 10px">
-                <p class=" tm-section-desc_citing_first" style="margin:8px auto">
-                  @article{hong2022lvos,  
-                </p>
-                <p class=" tm-section-desc_citing" style="margin:8px auto">
-                  title={LVOS: A Benchmark for Long-term Video Object Segmentation},
-                </p>
-                <p class=" tm-section-desc_citing" style="margin:8px auto">
-                  author={Hong, Lingyi and Chen, Wenchao and Liu, Zhongying and Zhang, Wei and Guo, Pinxue and Chen, Zhaoyu and Zhang, Wenqiang},
-                </p>
-                <p class=" tm-section-desc_citing" style="margin:8px auto">
-                  journal={arXiv preprint arXiv:2211.10181},
-                </p>
-                <p class=" tm-section-desc_citing" style="margin:8px auto">
-                  year={2022}, 
-                <p class=" tm-section-desc_citing_first" style="margin:8px auto">
-                  }
-                </p>
+    <div class="tm-next tm-intro-next">
+      <a href="#news" class="text-center tm-down-arrow-link">
+        <i class="fas fa-2x fa-arrow-down tm-down-arrow"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="news" class="tm-section-pad-top">
+
+    <div class="container">
+
+      <div class="row tm-content-box"><!-- first row -->
+        <div class="col-lg-12 col-xl-12">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4 tm-section-title">News</h2>
+
+            <div class="mb-4 tm-intro-text" style="display: flex;line-height: 30px;">
+              <span style="font-size: 40px;margin-right: 10px;">•</span>
+              <span>We have updated the language expressions! See <a href='./dataset.html'>Dataset</a> for more
+                information.
+              </span>
             </div>
-          </div>  
-          <div class="col-">
+
+            <div class="mb-4 tm-intro-text" style="display: flex;line-height: 30px;">
+              <span style="font-size: 40px;margin-right: 10px;">•</span>
+              <span><strong>LVOS</strong> is the first densely annotated long-term video object segmentation dataset.
+                LVOS aims to provide a benchmark for the development and assessing of long-term VOS models.
+              </span>
+            </div>
+
+
           </div>
-                    
         </div>
-        
       </div>
-    </section>
+    </div>
+  </section>
 
 
-    <!-- license -->
-    <section id="license" class="tm-section-pad-top ">
-    
-      <div class="container tm-container-contact">
-        
-        <div class="row">
-            
-            <div class="col-12">
-                <h2 class="text-center tm-section-title mb-4">License</h2>
-                <p class="tm-section-desc_license">
-                 The annotations of LVOS are licensed under a <a href="https://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 License </a>.               
-                </p>
 
-                <p class="tm-section-desc_license">
-                  The evaluation toolkits of LVOS are licensed under a <a href="https://github.com/LingyiHongfd/LVOS/blob/main/LICENSE"> BSD-3-Clause license </a>.                </p>
+  <section id="whatwedo" class="tm-section-pad-top">
 
-                <p class="tm-section-desc_license">
-                  The data of LVOS is released for <strong>non-commercial research purpose only</strong>.
-                </p>
+    <div class="container">
 
-                <p class="tm-section-desc_license">
-                  All videos and images are from <a href="https://votchallenge.net/vot2019/results.html">VOT-LT 2019</a> and <a href="http://vision.cs.stonybrook.edu/~lasot/">LaSOT </a>, which are not property of Fudan. Fudan is not responsible for the content nor the meaning of these videos and images.                </p>
+      <div class="row tm-content-box"><!-- first row -->
+        <div class="col-lg-12 col-xl-12">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4 tm-section-title">What is LVOS</h2>
+            <p class="mb-4 tm-intro-text">
+              <strong>LVOS</strong> is the first densely annotated long-term video object segmentation dataset. LVOS
+              aims to provide a benchmark for the development and assessing of long-term VOS models</a>.
+            </p>
+          </div>
+        </div>
+
+      </div><!-- first row -->
+
+      <div class="row tm-content-box" vertical-align="middle"><!-- second row -->
+
+        <!-- blank row -->
+        <div class="col-lg-1">
+        </div>
+
+        <div class="col-lg-4">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4">Long-term</h2>
+            <p class="mb-4 tm-intro-text">
+              Each sequence lasting <strong>1.59 minutes</strong> on average.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+        </div>
 
 
-            </div>
-            
-            
-        </div><!-- row ending -->
-        
-      </div>
+        <div class="col-lg-4">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4">High-quality and Dense Annotation</h2>
+            <p class="mb-4 tm-intro-text">
+              Pixel-wise annotations are available at <strong> 6 fps</strong>.</p>
+          </div>
+        </div>
 
-    </section>
-    
-    
-            
-    
-    <!-- Contact -->
-    <section id="contact" class="tm-section-pad-top ">
-    
-      <div class="container tm-container-contact">
-        
-        <div class="row">
-            
-            <div class="text-center col-12">
-                <h2 class="tm-section-title mb-4">Contact Us</h2>
-                <p class="mb-5">
-                  Any questions, suggestions and feedback are welcomed. Please concat <a href="mailto:honglyhly@gmail.com" target="_blank">honglyhly@gmail.com</a>
-                </p>
-                
-
-            </div>
-            
-            
-        </div><!-- row ending -->
-        
+        <!-- blank row -->
+        <div class="col-lg-1">
+        </div>
       </div>
 
-      	<footer class="text-center small tm-footer">
-          <p class="mb-0">
-          Copyright &copy; 2022 LVOS.</p>
-        </footer>
 
-    </section>
-    
-    
-    <script src="js/jquery-1.9.1.min.js"></script>     
-    <script src="slick/slick.min.js"></script>
-    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/easing.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>     
-    <script src="js/bootstrap.min.js"></script> 
-    <script>
+      <div class="row tm-content-box"><!-- third row -->
 
-      function getOffSet(){
-        var _offset = 450;
-        var windowHeight = window.innerHeight;
+        <!-- blank row -->
+        <div class="col-lg-1">
+        </div>
 
-        if(windowHeight > 500) {
-          _offset = 400;
-        } 
-        if(windowHeight > 680) {
-          _offset = 300
-        }
-        if(windowHeight > 830) {
-          _offset = 210;
-        }
+        <div class="col-lg-4">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4">High Resolution</h2>
+            <p class="mb-4 tm-intro-text">
+              All videos are <strong>720P</strong> .</p>
 
-        return _offset;
+
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+        </div>
+
+
+
+        <div class="col-lg-4">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4">Diverse Categories</h2>
+            <p class="mb-4 tm-intro-text">
+              <strong>27</strong> categories with 7 unseen categories to simulate real application scenarios closely.
+            </p>
+
+
+          </div>
+        </div>
+
+        <!-- blank row -->
+        <div class="col-lg-1">
+        </div>
+
+      </div>
+
+
+      <div class="row tm-content-box"><!-- forth row -->
+
+        <!-- blank row -->
+        <div class="col-lg-1">
+        </div>
+
+        <div class="col-lg-4">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4">Lingual Labeling</h2>
+            <p class="mb-4 tm-intro-text">
+              Each sequence is provided with additional <strong>lingual label</strong> .</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+        </div>
+
+
+        <div class="col-lg-4">
+          <div class="tm-intro-text-container">
+            <h2 class="tm-text-primary mb-4">Large Scale</h2>
+            <p class="mb-4 tm-intro-text">
+              <strong>220</strong> videos.
+              <strong>156,432</strong> annotations.
+            </p>
+          </div>
+        </div>
+
+        <!-- blank row -->
+        <div class="col-lg-1">
+        </div>
+
+      </div><!-- forth row -->
+
+      <!-- bottom links -->
+      <div class="row tm-content-box" vertical-align="middle"><!-- second row -->
+
+        <div class="tm-continue" style="margin-left: 500px;">
+          <a href="https://arxiv.org/abs/2211.10181v1" class="tm-intro-text tm-btn-primary">Paper</a>
+        </div>
+
+        <div class="tm-continue" style="margin-left: 70px;">
+          <a href="https://github.com/LingyiHongfd/LVOS" class="tm-intro-text tm-btn-primary">Codes</a>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- line -->
+  <div style="padding-top: 100px;"></div>
+  <div
+    style="position: absolute; left: 50%; transform: translateX(-50%); width: 80%; height: 2.5px; border-width:  1.5px; border-style: solid; border-color: #e6e1e1;">
+  </div>
+
+
+
+  <!-- citing -->
+  <section id="citing" class="tm-section-pad-top_citing">
+    <div class="container tm-container-gallery">
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class=" col-8">
+          <h2 class="text-center tm-text-primary tm-section-title mb-4">Citing LVOS</h2>
+          <p class="text-center mx-auto tm-section-desc">
+            Please consider citing LVOS if you use LVOS in your research.
+          </p>
+
+          <div style="background-color: rgba(242, 242, 242,1); padding-top: 10px; padding-bottom: 10px">
+            <p class=" tm-section-desc_citing_first" style="margin:8px auto">
+              @article{hong2022lvos,
+            </p>
+            <p class=" tm-section-desc_citing" style="margin:8px auto">
+              title={LVOS: A Benchmark for Long-term Video Object Segmentation},
+            </p>
+            <p class=" tm-section-desc_citing" style="margin:8px auto">
+              author={Hong, Lingyi and Chen, Wenchao and Liu, Zhongying and Zhang, Wei and Guo, Pinxue and Chen, Zhaoyu
+              and Zhang, Wenqiang},
+            </p>
+            <p class=" tm-section-desc_citing" style="margin:8px auto">
+              journal={arXiv preprint arXiv:2211.10181},
+            </p>
+            <p class=" tm-section-desc_citing" style="margin:8px auto">
+              year={2022},
+            <p class=" tm-section-desc_citing_first" style="margin:8px auto">
+              }
+            </p>
+          </div>
+        </div>
+        <div class="col-">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- license -->
+  <section id="license" class="tm-section-pad-top ">
+
+    <div class="container tm-container-contact">
+
+      <div class="row">
+
+        <div class="col-12">
+          <h2 class="text-center tm-section-title mb-4">License</h2>
+          <p class="tm-section-desc_license">
+            The annotations of LVOS are licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">
+              Creative Commons Attribution 4.0 License </a>.
+          </p>
+
+          <p class="tm-section-desc_license">
+            The evaluation toolkits of LVOS are licensed under a <a
+              href="https://github.com/LingyiHongfd/LVOS/blob/main/LICENSE"> BSD-3-Clause license </a>. </p>
+
+          <p class="tm-section-desc_license">
+            The data of LVOS is released for <strong>non-commercial research purpose only</strong>.
+          </p>
+
+          <p class="tm-section-desc_license">
+            All videos and images are from <a href="https://votchallenge.net/vot2019/results.html">VOT-LT 2019</a> and
+            <a href="http://vision.cs.stonybrook.edu/~lasot/">LaSOT </a>, which are not property of Fudan. Fudan is not
+            responsible for the content nor the meaning of these videos and images. </p>
+
+
+        </div>
+
+
+      </div><!-- row ending -->
+
+    </div>
+
+  </section>
+
+
+
+
+  <!-- Contact -->
+  <section id="contact" class="tm-section-pad-top ">
+
+    <div class="container tm-container-contact">
+
+      <div class="row">
+
+        <div class="text-center col-12">
+          <h2 class="tm-section-title mb-4">Contact Us</h2>
+          <p class="mb-5">
+            Any questions, suggestions and feedback are welcomed. Please concat <a href="mailto:honglyhly@gmail.com"
+              target="_blank">honglyhly@gmail.com</a>
+          </p>
+
+
+        </div>
+
+
+      </div><!-- row ending -->
+
+    </div>
+
+    <footer class="text-center small tm-footer">
+      <p class="mb-0">
+        Copyright &copy; 2022 LVOS.</p>
+    </footer>
+
+  </section>
+
+
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/easing.min.js"></script>
+  <script src="js/jquery.singlePageNav.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+
+    function getOffSet() {
+      var _offset = 450;
+      var windowHeight = window.innerHeight;
+
+      if (windowHeight > 500) {
+        _offset = 400;
+      }
+      if (windowHeight > 680) {
+        _offset = 300
+      }
+      if (windowHeight > 830) {
+        _offset = 210;
       }
 
-      function setParallaxPosition($doc, multiplier, $object){
-        var offset = getOffSet();
-        var from_top = $doc.scrollTop(),
-          bg_css = 'center ' +(multiplier * from_top - offset) + 'px';
-        $object.css({"background-position" : bg_css });
-      }
+      return _offset;
+    }
 
-      // Parallax function
-      // Adapted based on https://codepen.io/roborich/pen/wpAsm        
-      var background_image_parallax = function($object, multiplier, forceSet){
-        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
-        multiplier = 1 - multiplier;
-        var $doc = $(document);
-        // $object.css({"background-attatchment" : "fixed"});
+    function setParallaxPosition($doc, multiplier, $object) {
+      var offset = getOffSet();
+      var from_top = $doc.scrollTop(),
+        bg_css = 'center ' + (multiplier * from_top - offset) + 'px';
+      $object.css({ "background-position": bg_css });
+    }
 
-        if(forceSet) {
+    // Parallax function
+    // Adapted based on https://codepen.io/roborich/pen/wpAsm        
+    var background_image_parallax = function ($object, multiplier, forceSet) {
+      multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      // $object.css({"background-attatchment" : "fixed"});
+
+      if (forceSet) {
+        setParallaxPosition($doc, multiplier, $object);
+      } else {
+        $(window).scroll(function () {
           setParallaxPosition($doc, multiplier, $object);
+        });
+      }
+    };
+
+    var background_image_parallax_2 = function ($object, multiplier) {
+      multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+      multiplier = 1 - multiplier;
+      var $doc = $(document);
+      $object.css({ "background-attachment": "fixed" });
+
+      $(window).scroll(function () {
+        if ($(window).width() > 768) {
+          var firstTop = $object.offset().top,
+            pos = $(window).scrollTop(),
+            yPos = Math.round((multiplier * (firstTop - pos)) - 186);
+
+          var bg_css = 'center ' + yPos + 'px';
+
+          $object.css({ "background-position": bg_css });
         } else {
-          $(window).scroll(function(){          
-            setParallaxPosition($doc, multiplier, $object);
-          });
+          $object.css({ "background-position": "center" });
         }
-      };
+      });
+    };
 
-      var background_image_parallax_2 = function($object, multiplier){
-        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
-        multiplier = 1 - multiplier;
-        var $doc = $(document);
-        $object.css({"background-attachment" : "fixed"});
-        
-        $(window).scroll(function(){
-          if($(window).width() > 768) {
-            var firstTop = $object.offset().top,
-                pos = $(window).scrollTop(),
-                yPos = Math.round((multiplier * (firstTop - pos)) - 186);              
+    $(function () {
+      // Hero Section - Background Parallax
+      background_image_parallax($(".tm-parallax"), 0.30, false);
+      background_image_parallax_2($("#contact"), 0.80);
+      // background_image_parallax_2($("#testimonials"), 0.80);   
 
-            var bg_css = 'center ' + yPos + 'px';
+      // Handle window resize
+      window.addEventListener('resize', function () {
+        background_image_parallax($(".tm-parallax"), 0.30, true);
+      }, true);
 
-            $object.css({"background-position" : bg_css });
-          } else {
-            $object.css({"background-position" : "center" });
-          }
-        });
-      };
-      
-      $(function(){
-        // Hero Section - Background Parallax
-        background_image_parallax($(".tm-parallax"), 0.30, false);
-        background_image_parallax_2($("#contact"), 0.80);   
-        // background_image_parallax_2($("#testimonials"), 0.80);   
-        
-        // Handle window resize
-        window.addEventListener('resize', function(){
-          background_image_parallax($(".tm-parallax"), 0.30, true);
-        }, true);
+      // Detect window scroll and update navbar
+      $(window).scroll(function (e) {
+        if ($(document).scrollTop() > 120) {
+          $('.tm-navbar').addClass("scroll");
+        } else {
+          $('.tm-navbar').removeClass("scroll");
+        }
+      });
 
-        // Detect window scroll and update navbar
-        $(window).scroll(function(e){          
-          if($(document).scrollTop() > 120) {
-            $('.tm-navbar').addClass("scroll");
-          } else {
-            $('.tm-navbar').removeClass("scroll");
-          }
-        });
-        
-        // Close mobile menu after click 
-        $('#tmNav a').on('click', function(){
-          $('.navbar-collapse').removeClass('show'); 
-        })
+      // Close mobile menu after click 
+      $('#tmNav a').on('click', function () {
+        $('.navbar-collapse').removeClass('show');
+      })
 
-        // Scroll to corresponding section with animation
-        $('#tmNav').singlePageNav({
-          'easing': 'easeInOutExpo',
-          'speed': 600
-        });        
-        
-        // Add smooth scrolling to all links
-        // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
-        $("a").on('click', function(event) {
-          if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
+      // Scroll to corresponding section with animation
+      $('#tmNav').singlePageNav({
+        'easing': 'easeInOutExpo',
+        'speed': 600
+      });
 
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 600, 'easeInOutExpo', function(){
-              window.location.hash = hash;
-            });
-          } // End if
-        });
+      // Add smooth scrolling to all links
+      // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+      $("a").on('click', function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
 
-        // Pop up
-        $('.tm-gallery').magnificPopup({
-          delegate: 'a',
-          type: 'image',
-          gallery: { enabled: true }
-        });
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 600, 'easeInOutExpo', function () {
+            window.location.hash = hash;
+          });
+        } // End if
+      });
 
-        $('.tm-testimonials-carousel').slick({
-          dots: true,
-          prevArrow: false,
-          nextArrow: false,
-          infinite: false,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          responsive: [
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 2
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 2
-              }
-            }, 
-            {
-              breakpoint: 480,
-              settings: {
-                  slidesToShow: 1
-              }                 
+      // Pop up
+      $('.tm-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: { enabled: true }
+      });
+
+      $('.tm-testimonials-carousel').slick({
+        dots: true,
+        prevArrow: false,
+        nextArrow: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
             }
-          ]
-        });
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
 
-        // Gallery
-        $('.tm-gallery').slick({
-          dots: true,
-          infinite: false,
-          slidesToShow: 5,
-          slidesToScroll: 2,
-          responsive: [
+      // Gallery
+      $('.tm-gallery').slick({
+        dots: true,
+        infinite: false,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        responsive: [
           {
             breakpoint: 1199,
             settings: {
@@ -532,8 +546,9 @@ https://www.tooplate.com/view/2117-infinite-loop
             }
           }
         ]
-        });
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>

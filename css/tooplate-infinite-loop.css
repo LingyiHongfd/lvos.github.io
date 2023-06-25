@@ -16,6 +16,7 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
+
 a {
   transition: all 0.3s ease;
   color: #38b;
@@ -489,7 +490,7 @@ blockquote {
 }
 
 .grid figure figcaption,
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   position: absolute;
   top: 0;
   left: 0;
@@ -499,7 +500,7 @@ blockquote {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -655,7 +656,8 @@ figure.effect-honey:hover h2 i {
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
-  opacity: 1; /* Firefox */
+  opacity: 1;
+  /* Firefox */
 }
 
 :-ms-input-placeholder {
