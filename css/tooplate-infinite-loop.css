@@ -386,7 +386,7 @@ blockquote {
 
 .tm-section-desc_citing_first {
   padding-left: 50px;
-  max-width: 1000px;
+  max-width: 1800px;
   padding-right: 50px;
   line-height: 1em;
 
@@ -397,7 +397,7 @@ blockquote {
 
 .tm-section-desc_citing {
   padding-left: 70px;
-  max-width: 1000px;
+  max-width: 1800px;
   padding-right: 40px;
   line-height: 1em;
 
@@ -717,7 +717,7 @@ p {
   }
 
   .tm-container-gallery {
-    max-width: 1290px;
+    max-width: 1900px;
   }
 
   .tm-container-contact {
