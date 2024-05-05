@@ -60,6 +60,11 @@ blockquote {
   padding-bottom: 10px;
 }
 
+.tm-content-box_link{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
 .tm-text-primary {
   color: #37a;
 }
@@ -386,7 +391,8 @@ blockquote {
 
 .tm-section-desc_citing_first {
   padding-left: 50px;
-  max-width: 1800px;
+  /* max-width: 1800px; */
+  max-width: 2400px;
   padding-right: 50px;
   line-height: 1em;
 
@@ -397,7 +403,8 @@ blockquote {
 
 .tm-section-desc_citing {
   padding-left: 70px;
-  max-width: 1800px;
+  /* max-width: 1800px; */
+  max-width: 2400px;
   padding-right: 40px;
   line-height: 1em;
 
@@ -717,7 +724,8 @@ p {
   }
 
   .tm-container-gallery {
-    max-width: 1900px;
+    /* max-width: 1900px; */
+    max-width: 2500px;
   }
 
   .tm-container-contact {
